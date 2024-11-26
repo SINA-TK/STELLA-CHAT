@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>フレグランス質問ページ</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>フレグランスに関する質問フォーム</h1>
+    </header>
+    <main>
+        <p>以下のフォームにフレグランスに関する質問を入力して、回答を得てください。</p>
+        <form id="chatForm">
+            <label for="question">質問:</label>
+            <input type="text" id="question" placeholder="例: 甘い香りの香水を教えてください">
+            <button type="submit">送信</button>
+        </form>
+        <div id="response">
+            <h2>回答:</h2>
+            <p id="answer">ここにChatGPTの回答が表示されます。</p>
+        </div>
+    </main>
+    <footer>
+        <p>© 2024 フレグランス質問フォーム</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

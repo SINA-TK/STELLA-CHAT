@@ -1,5 +1,5 @@
 // ChatGPT APIキー（提供されたキーを使用）
-const API_KEY = "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";
+const API_KEY = "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";
 
 // ボタンのクリックイベントを設定
 document.getElementById("testApiButton").addEventListener("click", async function () {
